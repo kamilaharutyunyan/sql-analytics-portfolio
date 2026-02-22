@@ -1,4 +1,4 @@
-UPDATE public.sales_analysis 
+docker UPDATE public.sales_analysis 
 SET discount = NULL
 WHERE discount = 0;
 
