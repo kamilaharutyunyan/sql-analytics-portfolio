@@ -17,7 +17,7 @@ select
 from sales_analysis
 group by extract(quarter from order_date_date)
 order by q_rev desc
-limit 3;
+limit 1;
 
 select order_date_date,
     current_date - order_date_date as days_since_transaction
